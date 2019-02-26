@@ -11,10 +11,12 @@ Stealth application for the NS-3 Network Simulator
 
 ## Usage
 
+`./waf --run "scratch/StealthSimulation_5 --fixNode=3" > log.txt 2>&1`
+
 ## Results
 
 * Results are stored in `/HomePath/ns-allinone-3.28/ns-3.28/stealth_traces`, inside a folder named **Date_Time**, like **03022019_1049**.
-* The log file created `log.txt` is saved inside /HomePath/ns-allinone-3.28/ns-3.28/
+* The log file created `log.txt` is saved inside `/HomePath/ns-allinone-3.28/ns-3.28/`
 
 ## Simple Description
 
