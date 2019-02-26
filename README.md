@@ -1,6 +1,6 @@
 # Stealth Project
 
-Stealth application for the NS-3 Network Simulator
+Stealth application to run through NS-3 Network Simulator
 
 ## Installation 
 
@@ -10,6 +10,14 @@ Stealth application for the NS-3 Network Simulator
 4. Copy stealth files `StealthSimulation_3.cc` to `/HomePath/ns-allinone-3.28/ns-3.28/scratch`
 
 ## Usage
+
+Run application from folder `/HomePath/ns-allinone-3.28/ns-3.28`
+
+* Run without fixed nodes
+
+`./waf --run scratch/StealthSimulation_5 > log.txt 2>&1`
+
+* Run with fixed nodes
 
 `./waf --run "scratch/StealthSimulation_5 --fixNode=3" > log.txt 2>&1`
 
